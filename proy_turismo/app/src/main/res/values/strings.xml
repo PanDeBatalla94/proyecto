@@ -1,0 +1,87 @@
+<resources>
+    <string name="app_name">TURISMO</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="circuito">
+        <item> RESTAURANTES </item>
+        <item> HOTELES </item>
+        <item> IGLESIAS </item>
+    </string-array>
+
+    <!-- **************** RESTAURANTES  ****************** -->
+
+    <string-array name="restaurantes_titulo">
+        <item>Cafeteria Alexander</item>
+        <item>Restaurante San Angelo</item>
+        <item>Restaurante Banana Joe</item>
+        <item>Restaurante el Arriero</item>
+    </string-array>
+
+
+
+    <string-array name="restaurantes_contenido_completo">
+        <item>Los primeros clientes fueron testigos del proceso, saboreando los cappuccinos que preparamos con estrictos estándares y dedicación. \n Calle Montenegro Nº1336</item>
+        <item>Excelente Lugar para degustar comida boliviana e internacional. Ademas que se tiene un toque especial con todas las antiguedades en las paredes y el mismo lugar donde se encuentra. \n
+         Linares 922 La Paz, Bolivia  \n
+Tel.     2 2150015</item>
+        <item>El restaurante tiene cinco pisos y un subsuelo. En el primer y segundo nivel se establecerá un ambiente selvático con árboles con hojas y con paredes de piedra trabajadas por escultores nacionales, dijo Bejarano.
+        \n El prado</item>
+        <item>Muchas vivencias  se han producido en estos veinte años.
+Para nosotros, lo más importante fue la aceptación inmediata de nuestros clientes y amigos, los mismos que concurrieron permanentemente a nuestro local a degustar de los diferentes cortes disponibles en el menú diario, los cortes de carne Argentina de exportación.  \n El Arriero. Av. 6 de Agosto 2535 – La Paz, Bolivia Tel. +591-2 2435060</item>
+    </string-array>
+
+    <!-- **************** HOTELES ****************** -->
+    <string-array name="hoteles_titulo">
+        <item>Hotel Presidente</item>
+        <item>Hotel Gloria</item>
+        <item>El rey Palace Hotel</item>
+        <item>Ritz Apart Hotel</item>
+        <item>Suites Camino Real</item>
+    </string-array>
+
+
+
+    <string-array name="hoteles_contenido_completo">
+        <item>103 habitaciones • 18 suites • 2 restaurantes • 4 salones • Piscina cubierta y atemperada • Discoteca/Bar Parqueo • Office Center • Fax • DDN • DDI • Business Center (Internet gratuito 24 hrs.) • Zona Wi-Fi (todo el Hotel) • Servicio Secretarial • Parqueo • Lavandería y Limpieza • Servicio de Taxi • Room Service las 24 horas • Salones de distinta capacidad para todo tipo de acontecimiento • Pisos No Fumadores /n Dirección: c. Potosí Nro. 920 - , LA PAZ</item>
+        <item>Hotelería. Servicio de hospedaje. Hotel 3 estrellas en La Paz. Restaurante y eventos.
+        \n Dirección: c. Potosí Nro. 920 - , LA PAZ</item>
+        <item>Hotelería, Hospedaje en La Paz, Bolivia \n
+        Dirección: Av. 20 de Octubre Nro. 1947 - , LA PAZ</item>
+        <item>Servicios de Hotelería y Hospedaje 5 Estrellas, Suites, Restaurant, cafetería, Eventos, Centro de Negocios.
+        \n Dirección: Plaza Isabel La Católica Nro. 2478 - , LA PAZ</item>
+        <item>Cadena Hotelera Camino Real, Servicio de Hospedaje 5 Estrellas, Restaurant, Suites, Eventos, Centro de Negocios
+        \n Dirección: Av. Ballivián Nro. 369, calle 10 (Calacoto) - , LA PAZ</item>
+    </string-array>
+
+
+    <!-- **************** RUTA DEL VINO  ****************** -->
+
+    <string-array name="miradores_titulo">
+        <item>Bodegas La Guarda</item>
+        <item>Champañera Miguel Mas</item>
+        <item>Bodegas y Viñedos Fabril Alto Verde</item>
+        <item>Las Marianas Bodega Familiar</item>
+        <item>Viñas de Segisa</item>
+    </string-array>
+
+    <string-array name="rutadelvino_geo">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+
+    <string-array name="miradores_contenido_completo">
+        <item>Es una bodega de arquitectura clásica a la que se le incorporó ele-mentos tecnológicos, actualmente utilizados para la elaboración de vinos de alta calidad a nivel internacional. Los viñedos están ubicados a 55 km de la capital de la provincia de San Juan, en el departamento Sarmiento, zona del Valle de Tulum. Interesante zona para el cultivo de la vid, a 750 metros sobre el nivel del mar y a pocos kilómetros de la precordillera de los Andes posee condiciones características de las zonas cálidas y áridas que acompaña a las añadas, otorgándole sus distintos caracteres a cada variedad cultivada.</item>
+        <item>En 1998 el ingeniero Miguel Más crea la champañera en la que se elaboran a partir de las frutas obtenidas en la huerta, vinos, vinos espumantes, aceto balsámico y vinagre orgánico de excelente calidad que son certificados por empresas de reconocida trayectoria internacional. Este emprendimiento familiar está ubicado en una zona de excepcional fertilidad, rodeada de montañas y regada por aguas del deshielo provenientes de la Cordillera de Los Andes.</item>
+        <item>Las instalaciones de Fabril Alto Verde permiten ser visitadas por turistas, clientes, enófilos y público en general. En el recorrido por la bodega el visitante se llevará una idea muy acabada de las distintas etapas de elaboración de los vinos en sus diversos tipos y espumantes. La visita culmina con una degustación en el elegante wine bar, dirigida por una experta degustadora quien nos enseñará detalles y pequeños secretos que debemos tener en cuenta a la hora de valorar un vino.</item>
+        <item>La degustación de vinos exclusivos obtenidos con control personalizado desde la producción, cosecha y elaboración, y un paseo por la antigua bodega con sus maquinarias del año 1920 harán de su visita un agradable recorrido por la historia y evolución de una actividad tan arraigada al sentimiento de los habitantes de estas tierras</item>
+        <item>Se caracteriza por ser la primera bodega boutique de San Juan. Un salón de principios de siglo pasado totalmente renovado, sus cavas subterráneas, sus barricas de roble y hermosos viñedos le permitirán al visitante disfrutar, conocer y descubrir el mágico mundo del vino. Viñas de Segisa propone vivir la historia y los procesos de elaboración, y aprender a degustar vinos en forma gratuita. A menudo se realizan, además, en la bodega, espectáculos artísticos para hacer esta experiencia aun más especial.</item>
+    </string-array>
+
+
+
+</resources>

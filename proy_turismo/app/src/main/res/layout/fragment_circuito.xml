@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    tools:context=".MyActivity$PlaceholderFragment"
+    android:background="@android:color/white">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout">
+    <TextView
+        android:id="@+id/tv_circuito"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="restaurante"
+        android:textSize="20dp"
+        android:textColor="@android:color/white"
+        android:background="#1d3557"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:padding="5dp"
+        android:textStyle="bold" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:layout_below="@+id/linearLayout"
+        android:id="@+id/linearLayout2"
+        android:layout_marginTop="15dp">
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="250dp"
+            android:id="@+id/frg_imageView"
+            android:src="@drawable/restaurante_alexander"
+            android:scaleType="centerCrop"
+            android:layout_below="@+id/linearLayout"
+            android:layout_centerHorizontal="true" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayout2"
+        android:layout_centerHorizontal="true"
+        android:background="#f0f9ed"
+        android:id="@+id/linearLayout3">
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Bienvenido!! , ahora selecciona una categoria"
+            android:textSize="20dp"
+            android:textColor="#457b9e"
+            android:background="#f0f9ed"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:padding="5dp"
+            android:textStyle="bold"
+            android:id="@+id/l" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Desliza la pantalla hacia la izquierda para ver mas"
+            android:textSize="20dp"
+            android:textColor="#457b9e"
+            android:background="#f0f9ed"
+            android:padding="5dp"
+            android:textStyle="bold"
+            android:id="@+id/textView"
+            android:layout_alignTop="@+id/linearLayout3"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+    </LinearLayout>
+
+</RelativeLayout>
