@@ -36,9 +36,9 @@
                 android:id="@+id/tv_titulo_listaruncircuito"
                 android:layout_marginTop="5dp"
                 android:layout_marginLeft="5dp"
-                android:textColor="#fffbf3"
+                android:textColor="@android:color/black"
                 android:visibility="visible"
-                android:background="#0d293e"
+                android:background="#eaeaea"
                 android:textStyle="bold"
                 android:padding="10dp"
                 android:autoText="false" />

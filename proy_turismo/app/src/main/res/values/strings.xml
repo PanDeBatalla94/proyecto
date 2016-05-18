@@ -6,9 +6,13 @@
 
     <string-array name="circuito">
         <item> RESTAURANTES </item>
+        <item> RESTAURANTES VEGETARIANOS</item>
         <item> HOTELES </item>
         <item> IGLESIAS </item>
     </string-array>
+
+
+
 
     <!-- **************** RESTAURANTES  ****************** -->
 
@@ -18,6 +22,29 @@
         <item>Restaurante Banana Joe</item>
         <item>Restaurante el Arriero</item>
     </string-array>
+    <string-array name="restaurantes_geo">
+        <item>-16.511020, -68.122570</item>
+        <item>-16.538942, -68.077269</item>
+        <item>-16.502061, -68.132466</item>
+        <item>-16.510322, -68.124988</item>
+
+    </string-array>
+
+
+    <string-array name="restaurantesv_titulo">
+        <item>Mi nuevo Mexico</item>
+        <item>Restaurante visa sana</item>
+
+    </string-array>
+
+    <string-array name="restaurantesv_geo">
+        <item>-16.511020, -68.122570</item>
+        <item>-16.538942, -68.077269</item>
+
+
+    </string-array>
+
+
 
 
 
@@ -32,6 +59,13 @@ Tel.     2 2150015</item>
 Para nosotros, lo más importante fue la aceptación inmediata de nuestros clientes y amigos, los mismos que concurrieron permanentemente a nuestro local a degustar de los diferentes cortes disponibles en el menú diario, los cortes de carne Argentina de exportación.  \n El Arriero. Av. 6 de Agosto 2535 – La Paz, Bolivia Tel. +591-2 2435060</item>
     </string-array>
 
+    <string-array name="restaurantesv_contenido_completo">
+        <item>El restaurante tiene cinco pisos y un subsuelo. En el primer y segundo nivel se establecerá un ambiente selvático con árboles con hojas y con paredes de piedra trabajadas por escultores nacionales, dijo Bejarano.
+        \n El prado</item>
+        <item>Muchas vivencias  se han producido en estos veinte años.
+Para nosotros, lo más importante fue la aceptación inmediata de nuestros clientes y amigos, los mismos que concurrieron permanentemente a nuestro local a degustar de los diferentes cortes disponibles en el menú diario, los cortes de carne Argentina de exportación.  \n El Arriero. Av. 6 de Agosto 2535 – La Paz, Bolivia Tel. +591-2 2435060</item>
+    </string-array>
+
     <!-- **************** HOTELES ****************** -->
     <string-array name="hoteles_titulo">
         <item>Hotel Presidente</item>
@@ -39,6 +73,14 @@ Para nosotros, lo más importante fue la aceptación inmediata de nuestros clien
         <item>El rey Palace Hotel</item>
         <item>Ritz Apart Hotel</item>
         <item>Suites Camino Real</item>
+    </string-array>
+
+    <string-array name="hoteles_geo">
+        <item>-16.511020, -68.122570</item>
+        <item>-16.538942, -68.077269</item>
+        <item>-16.502061, -68.132466</item>
+        <item>-16.510322, -68.124988</item>
+        <item>-16.538942, -68.077269</item>
     </string-array>
 
 
@@ -59,26 +101,27 @@ Para nosotros, lo más importante fue la aceptación inmediata de nuestros clien
     <!-- **************** RUTA DEL VINO  ****************** -->
 
     <string-array name="miradores_titulo">
-        <item>Bodegas La Guarda</item>
-        <item>Champañera Miguel Mas</item>
-        <item>Bodegas y Viñedos Fabril Alto Verde</item>
-        <item>Las Marianas Bodega Familiar</item>
-        <item>Viñas de Segisa</item>
+        <item>Iglesia de la recolecta</item>
+        <item>Iglesia San Francisco</item>
+        <item>Iglesia central</item>
+        <item>Iglesia de San Miguel</item>
+        <item>Iglesia San Francisco</item>
     </string-array>
 
-    <string-array name="rutadelvino_geo">
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
+    <string-array name="iglesias_geo">
+        <item>-16.511020, -68.122570</item>
+        <item>-16.538942, -68.077269</item>
+        <item>-16.502061, -68.132466</item>
+        <item>-16.510322, -68.124988</item>
+        <item>-16.538942, -68.077269</item>
     </string-array>
+
 
     <string-array name="miradores_contenido_completo">
-        <item>Es una bodega de arquitectura clásica a la que se le incorporó ele-mentos tecnológicos, actualmente utilizados para la elaboración de vinos de alta calidad a nivel internacional. Los viñedos están ubicados a 55 km de la capital de la provincia de San Juan, en el departamento Sarmiento, zona del Valle de Tulum. Interesante zona para el cultivo de la vid, a 750 metros sobre el nivel del mar y a pocos kilómetros de la precordillera de los Andes posee condiciones características de las zonas cálidas y áridas que acompaña a las añadas, otorgándole sus distintos caracteres a cada variedad cultivada.</item>
-        <item>En 1998 el ingeniero Miguel Más crea la champañera en la que se elaboran a partir de las frutas obtenidas en la huerta, vinos, vinos espumantes, aceto balsámico y vinagre orgánico de excelente calidad que son certificados por empresas de reconocida trayectoria internacional. Este emprendimiento familiar está ubicado en una zona de excepcional fertilidad, rodeada de montañas y regada por aguas del deshielo provenientes de la Cordillera de Los Andes.</item>
+        <item> Su apariencia exterior tiene composición jesuítica y consta de tres portadas. La iglesia fue construida en 1894 y consagrada en 1896</item>
+        <item> La Basílica de San Francisco de la ciudad de La Paz, Bolivia, es un templo católico bajo la advocación de San Francisco de Asís</item>
         <item>Las instalaciones de Fabril Alto Verde permiten ser visitadas por turistas, clientes, enófilos y público en general. En el recorrido por la bodega el visitante se llevará una idea muy acabada de las distintas etapas de elaboración de los vinos en sus diversos tipos y espumantes. La visita culmina con una degustación en el elegante wine bar, dirigida por una experta degustadora quien nos enseñará detalles y pequeños secretos que debemos tener en cuenta a la hora de valorar un vino.</item>
-        <item>La degustación de vinos exclusivos obtenidos con control personalizado desde la producción, cosecha y elaboración, y un paseo por la antigua bodega con sus maquinarias del año 1920 harán de su visita un agradable recorrido por la historia y evolución de una actividad tan arraigada al sentimiento de los habitantes de estas tierras</item>
+        <item>La parroquia San Miguel en la ciudad de La Paz ha celebrado en el mes de septiembre sus bodas de oro. 50 años de servicio y entrega pastoral a beneficio de</item>
         <item>Se caracteriza por ser la primera bodega boutique de San Juan. Un salón de principios de siglo pasado totalmente renovado, sus cavas subterráneas, sus barricas de roble y hermosos viñedos le permitirán al visitante disfrutar, conocer y descubrir el mágico mundo del vino. Viñas de Segisa propone vivir la historia y los procesos de elaboración, y aprender a degustar vinos en forma gratuita. A menudo se realizan, además, en la bodega, espectáculos artísticos para hacer esta experiencia aun más especial.</item>
     </string-array>
 

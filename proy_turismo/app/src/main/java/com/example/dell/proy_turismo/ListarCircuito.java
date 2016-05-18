@@ -28,6 +28,11 @@ public class ListarCircuito extends ActionBarActivity {
             R.drawable.restaurante_arriero
     };
 
+    int[] imagenRestaurantesv = {
+            R.drawable.vegetarianouno,
+            R.drawable.vegetarianodos,
+    };
+
     int[] imagenHoteles = {
             R.drawable.hotel_presidente,
             R.drawable.hotel_ritz,
@@ -38,10 +43,10 @@ public class ListarCircuito extends ActionBarActivity {
 
     int[] imagenRutaDelVino = {
             R.drawable.rutadelvino_champaneramiguelmas,
-            R.drawable.rutadelvino_champaneramiguelmas,
-            R.drawable.rutadelvino_champaneramiguelmas,
-            R.drawable.rutadelvino_lasmarianasbodegafamliar,
-            R.drawable.rutadelvino_vinassegisa
+            R.drawable.iglesia,
+            R.drawable.iglesiab,
+            R.drawable.iglesiac,
+            R.drawable.iglesiaa
     };
 
 
@@ -76,12 +81,17 @@ public class ListarCircuito extends ActionBarActivity {
                 titulo = getResources().getStringArray(R.array.restaurantes_titulo);
                 adapter = new ListViewAdapter(this, imagenRestaurantes, titulo);
                 break;
-            case 1: //circuito lunar
+
+            case 1: //restaurantes vegetarianos
+                titulo = getResources().getStringArray(R.array.restaurantesv_titulo);
+                adapter = new ListViewAdapter(this, imagenRestaurantesv, titulo);
+                break;
+            case 2: //circuito hoteles
                 titulo = getResources().getStringArray(R.array.hoteles_titulo);
                 adapter = new ListViewAdapter(this, imagenHoteles, titulo);
                 break;
 
-            case 2: //ruta del vino
+            case 3: //iglesias
                 titulo = getResources().getStringArray(R.array.miradores_titulo);
                 adapter = new ListViewAdapter(this, imagenRutaDelVino, titulo);
                 break;

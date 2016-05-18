@@ -26,6 +26,7 @@ public class listado_principal extends ActionBarActivity {
 //nombres de las imagenes del deslisable
     protected static Integer[] mImageIds = {
             R.drawable.restaurante,
+            R.drawable.vegetarianos,
             R.drawable.hotel,
             R.drawable.iglesia
     };
@@ -45,6 +46,7 @@ public class listado_principal extends ActionBarActivity {
         mSectionsPagerAdapter.addFragment(Fragmentos.newInstance(0,mCircuito[0], mImageIds[0]));
         mSectionsPagerAdapter.addFragment(Fragmentos.newInstance(1,mCircuito[1], mImageIds[1]));
         mSectionsPagerAdapter.addFragment(Fragmentos.newInstance(2,mCircuito[2], mImageIds[2]));
+        mSectionsPagerAdapter.addFragment(Fragmentos.newInstance(3,mCircuito[3], mImageIds[3]));
 
         mViewPager.setAdapter(mSectionsPagerAdapter);
         //FIN VIEWPAGER
